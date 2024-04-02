@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #49243E;
+}
+canvas {
+  background: #704264;
+  display: block;
+  border: 5px solid #BB8493;
+  transition: box-shadow 0.5s ease-in;
+  margin: 20px auto;
+}
+canvas.active {
+  box-shadow: 0px 0px 10px 5px #bb849397;
+}
+button {
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: 'Silkscreen';
+  transition: 0.3s ease-in;
+}
+#runButton {
+  background-color: #DBAFA0;
+  border: 5px solid #ca9d8e;
+  color: #49243E;
+}
+#runButton:hover {
+  box-shadow: 1px 1px 7px 3px #dbafa048;
+  background-color: #edbdad;
+  border: 5px solid #caa193;
+}
+#runButton:disabled {
+  opacity: 0.5;
+  box-shadow: none;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#score-container {
+ display: flex;
+ justify-content: space-between;
+ width: 800px;
+ margin: 20px auto;
+ font-family: 'Silkscreen';
+ font-size: 25px;
+ color: #DBAFA0;
+}
+@font-face {
+  font-family: "Silkscreen";  
+  src: url("./Silkscreen.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
